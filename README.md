@@ -20,3 +20,6 @@ make package-install
 
 ### brain-even game demo:
 [![asciicast](https://asciinema.org/a/QFWP6mgEXeNWq8tT4nbOc4War.svg)](https://asciinema.org/a/QFWP6mgEXeNWq8tT4nbOc4War)
+
+### brain-calc game demo:
+[![asciicast](https://asciinema.org/a/bqZ2qLDOkjFvyz6nLIJkKHCxA.svg)](https://asciinema.org/a/bqZ2qLDOkjFvyz6nLIJkKHCxA)
