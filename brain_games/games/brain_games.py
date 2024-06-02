@@ -9,8 +9,8 @@ def get_user_name():
 
 def main():
     print('Welcome to the Brain Games!')
-    user_name = get_user_name()
-    print(f'Hello, {user_name}!')
+    # user_name = get_user_name()
+    # print(f'Hello, {user_name}!')
 
 
 if __name__ == "__main__":
