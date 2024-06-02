@@ -8,7 +8,8 @@ import prompt
 
 
 def main():
-    text = '/Welcome to the Brain Games!/\n/May I have you name?/'
+    # text = '/Welcome to the Brain Games!/\n/May I have you name?/'
+    text = '/May I have you name?/'
     user_name = prompt.string(
         prompt=text,
         empty=True,
