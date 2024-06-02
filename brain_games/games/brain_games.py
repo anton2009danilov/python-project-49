@@ -1,4 +1,3 @@
-import os
 import prompt
 # from brain_games.cli import welcome_user
 
@@ -9,15 +8,13 @@ import prompt
 
 def main():
     print('/Welcome to the Brain Games!/', flush=True)
-    os.system('clear')
     # text = '/Welcome to the Brain Games!/\n/May I have you name?/'
     text = '/May I have you name?/'
+    print(text, flush=True)
     user_name = prompt.string(
-        prompt=text,
         empty=True,
     ) or 'Anonymous'
-    os.system('clear')
-    print(f'/Hello, {user_name}!/')
+    print(f'/Hello, {user_name}!/', flush=True)
 
 
 if __name__ == "__main__":
