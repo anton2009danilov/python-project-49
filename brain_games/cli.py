@@ -72,6 +72,7 @@ def generate_question_text(game_name, quest_data):
 
 
 def run_game(game_name, quest_generator):
+    print("Welcome to the Brain Games!")
     user_name = welcome_user()
     if not quest_generator:
         return
