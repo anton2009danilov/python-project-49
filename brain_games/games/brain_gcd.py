@@ -20,6 +20,7 @@ def find_biggest_common_divider(num1, num2):
     for divider in range(max_divider, MIN_DIVIDER - STEP, STEP):
         if num1 % divider == 0 and num2 % divider == 0:
             return str(divider)
+    return str(MIN_DIVIDER)
 
 
 def calc_answer(quest_data):
