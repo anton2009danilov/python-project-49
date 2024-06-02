@@ -17,7 +17,7 @@ def find_biggest_common_divider(num1, num2):
     MIN_DIVIDER = 1
     STEP = -1
 
-    for divider in range(max_divider, MIN_DIVIDER - 1, STEP):
+    for divider in range(max_divider, MIN_DIVIDER - STEP, STEP):
         if num1 % divider == 0 and num2 % divider == 0:
             return str(divider)
 
