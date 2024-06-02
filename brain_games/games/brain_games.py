@@ -7,14 +7,13 @@ import prompt
 #     return user_name if user_name is not None else 'Anonymous'
 
 def main():
-    print('/Welcome to the Brain Games!/', flush=True)
-    # text = '/Welcome to the Brain Games!/\n/May I have you name?/'
-    text = '/May I have you name?/'
-    print(text, flush=True)
+    print('/Welcome to the Brain Games!/')
+    text = '/May I have your name?/'
     user_name = prompt.string(
+        prompt=text,
         empty=True,
     ) or 'Anonymous'
-    print(f'/Hello, {user_name}!/', flush=True)
+    print(f'/Hello, {user_name}!/')
 
 
 if __name__ == "__main__":

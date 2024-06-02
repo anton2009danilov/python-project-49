@@ -10,7 +10,7 @@ def ask_question(question_text):
 
 
 def get_user_name():
-    user_name = prompt.string('May I have you name? ', empty=True)
+    user_name = prompt.string('May I have your name? ', empty=True)
     return user_name if user_name is not None else 'Anonymous'
 
 
