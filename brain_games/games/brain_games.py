@@ -10,10 +10,6 @@ def get_user_name():
 
 def main():
     print('Welcome to the Brain Games!')
-    user_name = prompt.string(
-        'May I have you name? ',
-        empty=True,
-    )
     user_name = get_user_name()
     print(f'Hello, {user_name}!')
 
