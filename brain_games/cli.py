@@ -41,9 +41,8 @@ def generate_brain_gcd_text(quest_data):
 
 
 def generate_brain_prime_text(num):
-    description = 'Answer "yes" if given number is prime.'.join(
-        ' Otherwise answer "no".\n'
-    )
+    description = 'Answer "yes" if given number is prime. ' \
+        'Otherwise answer "no".\n'
     task = f'Question: {num}\n'
     return [description, task]
 

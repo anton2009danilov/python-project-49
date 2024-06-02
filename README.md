@@ -40,3 +40,6 @@ make package-install
 
 ### brain-progression game demo:
 [![asciicast](https://asciinema.org/a/Qn2krCH1hYJZIulCoR94VNoSj.svg)](https://asciinema.org/a/Qn2krCH1hYJZIulCoR94VNoSj)
+
+### brain-prime game demo:
+[![asciicast](https://asciinema.org/a/GbOcaET0mOyaUIK3GetYzCiUN.svg)](https://asciinema.org/a/GbOcaET0mOyaUIK3GetYzCiUN)
