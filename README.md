@@ -18,8 +18,22 @@ cd python-project-49
 make package-install
 ```
 
+### Commands
+
+| Command           | Description                                                                                                                           |
+| ----------------- | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| brain-even        | Start "Even number, not even number" game. Player should tell if the showed number is even by typing "yes" or "no" in a command line. |
+| brain-calc        | Start "Make a calculation" game. Player's task is to make a simple calculation with two numbers and type the right answer.            |
+| brain-gcd         | Start "Greatest common divider" game. Player should find the biggest common divider of two given numbers.                             |
+| brain-progression | Start "Find missed number" game. Player should type a number missed in a progression.                                                 |
+| brain-prime       | Start brain-prime game. Player should tell if showed number is prime.                                                                 |
+
+
 ### brain-even game demo:
 [![asciicast](https://asciinema.org/a/QFWP6mgEXeNWq8tT4nbOc4War.svg)](https://asciinema.org/a/QFWP6mgEXeNWq8tT4nbOc4War)
 
 ### brain-calc game demo:
 [![asciicast](https://asciinema.org/a/bqZ2qLDOkjFvyz6nLIJkKHCxA.svg)](https://asciinema.org/a/bqZ2qLDOkjFvyz6nLIJkKHCxA)
+
+### brain-gcd game demo:
+[![asciicast](https://asciinema.org/a/1031uzNmlyMkQiGPadktvB4aw.svg)](https://asciinema.org/a/1031uzNmlyMkQiGPadktvB4aw)
