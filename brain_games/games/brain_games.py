@@ -8,7 +8,7 @@ import prompt
 #     return user_name if user_name is not None else 'Anonymous'
 
 def main():
-    print('/Welcome to the Brain Games!/')
+    print('/Welcome to the Brain Games!/', flush=True)
     os.system('clear')
     # text = '/Welcome to the Brain Games!/\n/May I have you name?/'
     text = '/May I have you name?/'
