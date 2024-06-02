@@ -8,9 +8,9 @@ import prompt
 
 
 def main():
-    print('/Welcome to the Brain Games!/')
-    print('/May I have you name?/')
-    user_name = prompt.secret(
+    text = '/Welcome to the Brain Games!/\n/May I have you name?/'
+    user_name = prompt.string(
+        prompt=text,
         empty=True,
     ) or 'Anonymous'
     print(f'/Hello, {user_name}!/')
