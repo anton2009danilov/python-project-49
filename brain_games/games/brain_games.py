@@ -4,6 +4,7 @@ import prompt
 
 def get_user_name():
     user_name = prompt.string(
+        'Welcome to the Brain Games!\n'
         'May I have you name? ', empty=True
     )
     return user_name if user_name is not None else 'Anonymous'
